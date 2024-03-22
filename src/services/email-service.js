@@ -33,7 +33,6 @@ const createNotification = async (data) => {
 };
 const updateTicket = async (ticketId, data) => {
   try {
-    console.log(ticketId, data);
     const response = await repo.update(ticketId, data);
     return response;
   } catch (error) {

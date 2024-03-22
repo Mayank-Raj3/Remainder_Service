@@ -32,5 +32,6 @@ const setupJobs = () => {
     console.log(response);
   });
 };
+
 setupJobs();
 module.exports = setupJobs;
